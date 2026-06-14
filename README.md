@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Kapil%20Rathore&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Code%20Analysis%20%7C%20OSS%20Contributor%20%7C%20Bug%20Hunter&descAlignY=58&descColor=a0a0ff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=180&section=header&text=Kapil%20Rathore&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Open%20Source%20Analyst%20%7C%20Bug%20Hunter%20%7C%20OSS%20Contributor&descAlignY=58&descColor=a0a0ff" width="100%"/>
 
 </div>
 
@@ -8,46 +8,73 @@
 
 <div align="center">
 
-[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-8+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Bugs Confirmed](https://img.shields.io/badge/Bugs%20Confirmed-5-302b63?style=for-the-badge&logo=bugsnag&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![PRs Merged](https://img.shields.io/badge/PRs%20Merged-2-24243e?style=for-the-badge&logo=git&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-9+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-8-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-2-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-400K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
 
 </div>
 
 ---
 
-## 🔍 About
+## 👋 About Me
 
-I analyze open-source repositories by examining recent commits for behavioral contract changes — things like silent return value mutations, exception scope widening, and broken caller assumptions that slip past code review.
+I do deep commit-level analysis on actively maintained open source projects — looking for behavioral contract changes that slip past code review: silent return value mutations, exception scope widening, broken caller assumptions, wrong entity types in API calls.
 
-When I find something real, I report it.
+When I find something real, I report it with a reproducible description and a suggested fix.
+
+> Full writeups with code → **[oss-findings](https://github.com/kapil971390/oss-findings)**
 
 ---
 
-## 📋 Confirmed Findings
-
-> Full writeups → **[oss-findings](https://github.com/kapil971390/oss-findings)**
+## 📋 All Activity
 
 <div align="center">
 
-| Repository | Finding | Severity | Status |
-|:-----------|:--------|:--------:|:------:|
-| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Qwen provider returns empty `choices[]` — silent crash with no diagnostic | 🔴 High | [✅ Fixed](https://github.com/harry0703/MoneyPrinterTurbo/pull/994) |
-| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Groq model name unvalidated on list-fetch failure — wrong model silently used | 🟡 Medium | [✅ Fixed](https://github.com/harry0703/MoneyPrinterTurbo/pull/1014) |
-| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | CLI `--video-source local` accepts invalid args without error until deep into run | 🟡 Medium | [⏳ PR Open](https://github.com/harry0703/MoneyPrinterTurbo/pull/1033) |
-| [midjourney-api](https://github.com/erictik/midjourney-api) | `ChannelId` used as `ServerId` fallback — Discord guild API call fails silently | 🔴 High | 🔍 Reported |
-| [midjourney-api](https://github.com/erictik/midjourney-api) | Dead code in `cacheCommand()` — `allCommand()` unreachable, cache never populated | 🟡 Medium | 🔍 Reported |
+| Date | Repo | What | Severity | Status |
+|:-----|:-----|:-----|:--------:|:------:|
+| Jun 14 | [midjourney-api](https://github.com/erictik/midjourney-api) | [#294](https://github.com/erictik/midjourney-api/issues/294) — `ChannelId` used as `ServerId` in guild API | 🔴 High | ⏳ Open |
+| Jun 14 | [midjourney-api](https://github.com/erictik/midjourney-api) | [#295](https://github.com/erictik/midjourney-api/issues/295) — Dead code in `cacheCommand()`, cache never populated | 🟡 Medium | ⏳ Open |
+| Jun 13 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | [PR #1033](https://github.com/harry0703/MoneyPrinterTurbo/pull/1033) — CLI local source validation fix | 🟡 Medium | ⏳ Open |
+| Jun 10 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | [#1013](https://github.com/harry0703/MoneyPrinterTurbo/issues/1013) — Groq model unvalidated on list-fetch failure | 🟡 Medium | ✅ [Fixed PR #1014](https://github.com/harry0703/MoneyPrinterTurbo/pull/1014) |
+| Jun 4 | [medusajs/medusa](https://github.com/medusajs/medusa) | [Discussion #15550](https://github.com/medusajs/medusa/discussions/15550) — Race condition in `compensatePaymentIfNeededStep` | 🔴 High | 👀 Watching |
+| Jun 4 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | [#985](https://github.com/harry0703/MoneyPrinterTurbo/issues/985) — `>=` comparison risk in duration check | 🟡 Medium | 👀 Community PR expected |
+| Jun 4 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | [#984](https://github.com/harry0703/MoneyPrinterTurbo/issues/984) — Qwen empty `choices[]` — unhandled crash | 🔴 High | ✅ [Fixed PR #994](https://github.com/harry0703/MoneyPrinterTurbo/pull/994) |
+| Jun 4 | [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Discussion — commit analysis findings | 🟡 Medium | 👀 Watching |
 
 </div>
 
 ---
 
-## 📊 Analysis Coverage
+## 🔭 Repos Analyzed
+
+<div align="center">
+
+| Repository | Language | Stars | Finding |
+|:-----------|:---------|------:|:--------|
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Python | 22K+ | 3 bugs found, 2 fixed |
+| [medusajs/medusa](https://github.com/medusajs/medusa) | TypeScript | 28K+ | Race condition in async workflow step |
+| [erictik/midjourney-api](https://github.com/erictik/midjourney-api) | TypeScript | 1.8K | 2 bugs found |
+| [apify/crawlee-python](https://github.com/apify/crawlee-python) | Python | 9K+ | Silent URL filtering behavior change |
+| [tox-dev/tox](https://github.com/tox-dev/tox) | Python | 4K+ | Config override namespace risk |
+| [gptme/gptme](https://github.com/gptme/gptme) | Python | 4K+ | LLM routing logic analysis |
+| [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Python | — | Commit analysis findings |
+| [acacode/swagger-typescript-api](https://github.com/acacode/swagger-typescript-api) | TypeScript | 4K+ | Analyzed — no actionable findings |
+| [aws/aws-sam-cli](https://github.com/aws/aws-sam-cli) | Python | 6.7K | Analyzed — no actionable findings |
+
+</div>
+
+---
+
+## 📈 Stats
 
 ```
-Python  ██████████████░░  8 repos
-TypeScript  ██████░░░░░░░░░░  3 repos
-JavaScript  ████░░░░░░░░░░░░  2 repos
+Issues Opened     ████████░░  6
+PRs Submitted     ██░░░░░░░░  1
+PRs Merged        ██░░░░░░░░  2  ← accepted by maintainers
+Discussions       ██░░░░░░░░  2
+Repos Analyzed    █████████░  9
+Confirmed Bugs    ████░░░░░░  5
 ```
 
 ---
