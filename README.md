@@ -8,10 +8,10 @@
 
 <div align="center">
 
-[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-9+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-8-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-10+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-10-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
 [![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-2-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-400K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-500K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
 
 </div>
 
@@ -35,6 +35,8 @@ When I find something real, I report it with a reproducible description and a su
 |:-----|:-----|:-----|:--------:|:------:|
 | Jun 14 | [midjourney-api](https://github.com/erictik/midjourney-api) | [#294](https://github.com/erictik/midjourney-api/issues/294) — `ChannelId` used as `ServerId` in guild API | 🔴 High | ⏳ Open |
 | Jun 14 | [midjourney-api](https://github.com/erictik/midjourney-api) | [#295](https://github.com/erictik/midjourney-api/issues/295) — Dead code in `cacheCommand()`, cache never populated | 🟡 Medium | ⏳ Open |
+| Jun 14 | [bagisto/bagisto](https://github.com/bagisto/bagisto) | [#11338](https://github.com/bagisto/bagisto/issues/11338) — `getClientOriginalName()` path traversal in `RMAImageRepository` — incomplete security fix | 🔴 Critical | ⏳ Open |
+| Jun 14 | [bagisto/bagisto](https://github.com/bagisto/bagisto) | [#11339](https://github.com/bagisto/bagisto/issues/11339) — `v-html` XSS in Shop views — `product_name` + datagrid columns unescaped | 🔴 High | ⏳ Open |
 | Jun 13 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | [PR #1033](https://github.com/harry0703/MoneyPrinterTurbo/pull/1033) — CLI local source validation fix | 🟡 Medium | ⏳ Open |
 | Jun 10 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | [#1013](https://github.com/harry0703/MoneyPrinterTurbo/issues/1013) — Groq model unvalidated on list-fetch failure | 🟡 Medium | ✅ [Fixed PR #1014](https://github.com/harry0703/MoneyPrinterTurbo/pull/1014) |
 | Jun 4 | [medusajs/medusa](https://github.com/medusajs/medusa) | [Discussion #15550](https://github.com/medusajs/medusa/discussions/15550) — Race condition in `compensatePaymentIfNeededStep` | 🔴 High | 👀 Watching |
@@ -60,6 +62,7 @@ When I find something real, I report it with a reproducible description and a su
 | [gptme/gptme](https://github.com/gptme/gptme) | Python | 4K+ | LLM routing logic analysis |
 | [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | Python | — | Commit analysis findings |
 | [acacode/swagger-typescript-api](https://github.com/acacode/swagger-typescript-api) | TypeScript | 4K+ | Analyzed — no actionable findings |
+| [bagisto/bagisto](https://github.com/bagisto/bagisto) | PHP | 9.1K+ | 2 security bugs found |
 | [aws/aws-sam-cli](https://github.com/aws/aws-sam-cli) | Python | 6.7K | Analyzed — no actionable findings |
 
 </div>
@@ -69,11 +72,11 @@ When I find something real, I report it with a reproducible description and a su
 ## 📈 Stats
 
 ```
-Issues Opened     ████████░░  6
+Issues Opened     █████████░  8
 PRs Submitted     ██░░░░░░░░  1
 PRs Merged        ██░░░░░░░░  2  ← accepted by maintainers
 Discussions       ██░░░░░░░░  2
-Repos Analyzed    █████████░  9
+Repos Analyzed    ██████████  10
 Confirmed Bugs    ████░░░░░░  5
 ```
 
