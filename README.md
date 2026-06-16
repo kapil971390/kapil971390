@@ -8,9 +8,9 @@
 
 <div align="center">
 
-[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-10+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-10-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-3-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-12+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-12-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-4-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
 [![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-500K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
 
 </div>
@@ -33,6 +33,8 @@ When I find something real, I report it with a reproducible description and a su
 
 | Date | Repo | What | Severity | Status |
 |:-----|:-----|:-----|:--------:|:------:|
+| Jun 16 | [magento/magento2](https://github.com/magento/magento2) | [#40882](https://github.com/magento/magento2/issues/40882) — `NoSuchEntityException` race in `InvalidSkuProcessor` bulk price API | 🔴 High | ⏳ [PR #40883](https://github.com/magento/magento2/pull/40883) |
+| Jun 5 | [codeceptjs/CodeceptJS](https://github.com/codeceptjs/CodeceptJS) | [PR #5639](https://github.com/codeceptjs/CodeceptJS/pull/5639) — `--shuffle` flag silently ignored after commit #5438 | 🔴 High | ✅ [Merged](https://github.com/codeceptjs/CodeceptJS/pull/5639) |
 | Jun 14 | [midjourney-api](https://github.com/erictik/midjourney-api) | [#294](https://github.com/erictik/midjourney-api/issues/294) — `ChannelId` used as `ServerId` in guild API | 🔴 High | ⏳ Open |
 | Jun 14 | [midjourney-api](https://github.com/erictik/midjourney-api) | [#295](https://github.com/erictik/midjourney-api/issues/295) — Dead code in `cacheCommand()`, cache never populated | 🟡 Medium | ⏳ Open |
 | Jun 14 | [bagisto/bagisto](https://github.com/bagisto/bagisto) | [#11338](https://github.com/bagisto/bagisto/issues/11338) — `getClientOriginalName()` path traversal in `RMAImageRepository` — incomplete security fix | 🔴 Critical | ⏳ Open |
@@ -64,6 +66,8 @@ When I find something real, I report it with a reproducible description and a su
 | [acacode/swagger-typescript-api](https://github.com/acacode/swagger-typescript-api) | TypeScript | 4K+ | Analyzed — no actionable findings |
 | [bagisto/bagisto](https://github.com/bagisto/bagisto) | PHP | 9.1K+ | 2 security bugs found |
 | [aws/aws-sam-cli](https://github.com/aws/aws-sam-cli) | Python | 6.7K | Analyzed — no actionable findings |
+| [codeceptjs/CodeceptJS](https://github.com/codeceptjs/CodeceptJS) | JavaScript | 10K+ | shuffle regression — PR #5639 merged ✅ |
+| [magento/magento2](https://github.com/magento/magento2) | PHP | 14K+ | `NoSuchEntityException` race condition in bulk price API |
 
 </div>
 
@@ -72,12 +76,12 @@ When I find something real, I report it with a reproducible description and a su
 ## 📈 Stats
 
 ```
-Issues Opened     █████████░  8
-PRs Submitted     ██░░░░░░░░  1
-PRs Merged        ███░░░░░░░  3  ← accepted by maintainers
+Issues Opened     ████████░░  10
+PRs Submitted     ███░░░░░░░  3
+PRs Merged        ████░░░░░░  4  ← accepted by maintainers
 Discussions       ██░░░░░░░░  2
-Repos Analyzed    ██████████  10
-Confirmed Bugs    ████░░░░░░  5
+Repos Analyzed    ██████████  12
+Confirmed Bugs    █████░░░░░  6
 ```
 
 ---
