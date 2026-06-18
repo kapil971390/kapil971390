@@ -58,7 +58,7 @@ When I find something real, I report it with a reproducible description and a su
 | Repository | Language | Stars | Finding |
 |:-----------|:---------|------:|:--------|
 | [penpot/penpot](https://github.com/penpot/penpot) | ClojureScript | 50K+ | Stale MCP token state — merged in v2.17.0 ✅ |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Python | 22K+ | 3 bugs found, 3 fixed |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Python | 89K+ | 3 bugs found, 3 fixed |
 | [medusajs/medusa](https://github.com/medusajs/medusa) | TypeScript | 28K+ | Race condition in async workflow step |
 | [erictik/midjourney-api](https://github.com/erictik/midjourney-api) | TypeScript | 1.8K | 2 bugs found |
 | [apify/crawlee-python](https://github.com/apify/crawlee-python) | Python | 9K+ | Silent URL filtering behavior change |
