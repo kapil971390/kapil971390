@@ -8,10 +8,10 @@
 
 <div align="center">
 
-[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-12+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-12-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-4-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-500K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-13+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-14-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-5-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-550K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
 
 </div>
 
@@ -33,6 +33,7 @@ When I find something real, I report it with a reproducible description and a su
 
 | Date | Repo | What | Severity | Status |
 |:-----|:-----|:-----|:--------:|:------:|
+| Jun 18 | [penpot/penpot](https://github.com/penpot/penpot) | [#10279](https://github.com/penpot/penpot/issues/10279) — Stale MCP token shown after regeneration — old token persisted in client state after server-side deletion | 🟡 Medium | ✅ [Merged in v2.17.0](https://github.com/penpot/penpot/pull/10280) |
 | Jun 16 | [magento/magento2](https://github.com/magento/magento2) | [#40882](https://github.com/magento/magento2/issues/40882) — `NoSuchEntityException` race in `InvalidSkuProcessor` bulk price API | 🔴 High | ⏳ [PR #40883](https://github.com/magento/magento2/pull/40883) |
 | Jun 5 | [codeceptjs/CodeceptJS](https://github.com/codeceptjs/CodeceptJS) | [PR #5639](https://github.com/codeceptjs/CodeceptJS/pull/5639) — `--shuffle` flag silently ignored after commit #5438 | 🔴 High | ✅ [Merged](https://github.com/codeceptjs/CodeceptJS/pull/5639) |
 | Jun 14 | [midjourney-api](https://github.com/erictik/midjourney-api) | [#294](https://github.com/erictik/midjourney-api/issues/294) — `ChannelId` used as `ServerId` in guild API | 🔴 High | ⏳ Open |
@@ -56,6 +57,7 @@ When I find something real, I report it with a reproducible description and a su
 
 | Repository | Language | Stars | Finding |
 |:-----------|:---------|------:|:--------|
+| [penpot/penpot](https://github.com/penpot/penpot) | ClojureScript | 50K+ | Stale MCP token state — merged in v2.17.0 ✅ |
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Python | 22K+ | 3 bugs found, 3 fixed |
 | [medusajs/medusa](https://github.com/medusajs/medusa) | TypeScript | 28K+ | Race condition in async workflow step |
 | [erictik/midjourney-api](https://github.com/erictik/midjourney-api) | TypeScript | 1.8K | 2 bugs found |
@@ -76,12 +78,12 @@ When I find something real, I report it with a reproducible description and a su
 ## 📈 Stats
 
 ```
-Issues Opened     ████████░░  10
-PRs Submitted     ███░░░░░░░  3
-PRs Merged        ████░░░░░░  4  ← accepted by maintainers
+Issues Opened     ████████░░  11
+PRs Submitted     ████░░░░░░  4
+PRs Merged        █████░░░░░  5  ← accepted by maintainers
 Discussions       ██░░░░░░░░  2
-Repos Analyzed    ██████████  12
-Confirmed Bugs    █████░░░░░  6
+Repos Analyzed    ██████████  13
+Confirmed Bugs    ██████░░░░  7
 ```
 
 ---
