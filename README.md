@@ -11,7 +11,7 @@
 [![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-13+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
 [![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-14-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
 [![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-5-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-550K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-230K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
 
 </div>
 
