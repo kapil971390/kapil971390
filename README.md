@@ -8,10 +8,10 @@
 
 <div align="center">
 
-[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-13+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-14-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-5-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-230K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-14+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-16-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-6-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-440K+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
 
 </div>
 
@@ -33,6 +33,7 @@ When I find something real, I report it with a reproducible description and a su
 
 | Date | Repo | What | Severity | Status |
 |:-----|:-----|:-----|:--------:|:------:|
+| Jun 18 | [affaan-m/ECC](https://github.com/affaan-m/ECC) ⭐ 217K | [#2291](https://github.com/affaan-m/ECC/issues/2291) + [PR #2292](https://github.com/affaan-m/ECC/pull/2292) — `find -exec rm` bypass via compound commands (`&&` `;` `\|` `\|\|`) in gateguard security hook — triggered maintainer's GHSA-4v57 security advisory | 🔴 High | ✅ [Merged](https://github.com/affaan-m/ECC/pull/2292) |
 | Jun 18 | [penpot/penpot](https://github.com/penpot/penpot) | [#10279](https://github.com/penpot/penpot/issues/10279) — Stale MCP token shown after regeneration — old token persisted in client state after server-side deletion | 🟡 Medium | ✅ [Merged in v2.17.0](https://github.com/penpot/penpot/pull/10280) |
 | Jun 16 | [magento/magento2](https://github.com/magento/magento2) | [#40882](https://github.com/magento/magento2/issues/40882) — `NoSuchEntityException` race in `InvalidSkuProcessor` bulk price API | 🔴 High | ⏳ [PR #40883](https://github.com/magento/magento2/pull/40883) |
 | Jun 5 | [codeceptjs/CodeceptJS](https://github.com/codeceptjs/CodeceptJS) | [PR #5639](https://github.com/codeceptjs/CodeceptJS/pull/5639) — `--shuffle` flag silently ignored after commit #5438 | 🔴 High | ✅ [Merged](https://github.com/codeceptjs/CodeceptJS/pull/5639) |
@@ -57,6 +58,7 @@ When I find something real, I report it with a reproducible description and a su
 
 | Repository | Language | Stars | Finding |
 |:-----------|:---------|------:|:--------|
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | JavaScript | 217K+ | Security bypass in gateguard hook — `find -exec rm` via `&&`/`;`/`\|`/`\|\|` — merged ✅ |
 | [penpot/penpot](https://github.com/penpot/penpot) | ClojureScript | 50K+ | Stale MCP token state — merged in v2.17.0 ✅ |
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Python | 89K+ | 3 bugs found, 3 fixed |
 | [medusajs/medusa](https://github.com/medusajs/medusa) | TypeScript | 28K+ | Race condition in async workflow step |
@@ -78,12 +80,12 @@ When I find something real, I report it with a reproducible description and a su
 ## 📈 Stats
 
 ```
-Issues Opened     ████████░░  11
-PRs Submitted     ████░░░░░░  4
-PRs Merged        █████░░░░░  5  ← accepted by maintainers
+Issues Opened     █████████░  12
+PRs Submitted     █████░░░░░  5
+PRs Merged        ██████░░░░  6  ← accepted by maintainers
 Discussions       ██░░░░░░░░  2
-Repos Analyzed    ██████████  13
-Confirmed Bugs    ██████░░░░  7
+Repos Analyzed    ██████████  14
+Confirmed Bugs    ███████░░░  8
 ```
 
 ---
