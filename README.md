@@ -10,7 +10,7 @@
 
 [![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-29+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
 [![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-35+-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-13-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-14-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
 [![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-1.3M+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
 [![Biggest Merge](https://img.shields.io/badge/Biggest%20Merge-n8n%20194K%20stars-f59e0b?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/n8n-io/n8n/pull/32801)
 [![Release Notes](https://img.shields.io/badge/Named%20In%20Release%20Notes-CodeceptJS%20v4.0.8-7c3aed?style=for-the-badge&logo=trophy&logoColor=white)](https://github.com/codeceptjs/CodeceptJS/releases/tag/4.0.8)
@@ -35,6 +35,7 @@ When I find something real, I report it with a reproducible description and a su
 
 | Date | Repo | What | Severity | Status |
 |:-----|:-----|:-----|:--------:|:------:|
+| Jul 1 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | [PR #227](https://github.com/calesthio/OpenMontage/pull/227) — `success` contract mismatch in CharacterAnimationReviewer — `success=False` on QA issues diverged from `visual_qa.py` sibling pattern; merged by calesthio after redirecting fix per maintainer feedback | 🟡 Medium | ✅ [Merged](https://github.com/calesthio/OpenMontage/pull/227) |
 | Jun 29 | [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ **194K** | [PR #32801](https://github.com/n8n-io/n8n/pull/32801) — IPv6 `[::1]` missing from MCP redirect URI DTO — admin gets HTTPS-required error even though runtime accepts it — merged by nikhilkuria after internal review queue (~1 month, GHC-8773) — **BIGGEST REPO YET** | 🟡 Medium | ✅ [Merged](https://github.com/n8n-io/n8n/pull/32801) |
 | Jun 29 | [denoland/deno](https://github.com/denoland/deno) ⭐ 100K+ | [PR #35520](https://github.com/denoland/deno/pull/35520) — `BTreeSet::contains` byte-exact match misses case-insensitive npm names in trust-policy — *"bug is real and your analysis is spot on"* — bartlomieju | 🔴 High | ✅ [Merged](https://github.com/denoland/deno/pull/35520) |
 | Jun 26 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 89K+ | [PR #1078](https://github.com/harry0703/MoneyPrinterTurbo/pull/1078) — `youtube_shorts` platform name mismatch — metadata silently dropped on upload | 🟡 Medium | ✅ [Merged](https://github.com/harry0703/MoneyPrinterTurbo/pull/1078) |
@@ -91,7 +92,7 @@ When I find something real, I report it with a reproducible description and a su
 ```
 Issues Opened     ██████████  20+
 PRs Submitted     ████████░░  18+
-PRs Merged        ████████░░  13  ← accepted by maintainers
+PRs Merged        ████████░░  14  ← accepted by maintainers
 Discussions       ██░░░░░░░░  2
 Repos Analyzed    ██████████  29+
 Confirmed Bugs    ██████████  15+
