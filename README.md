@@ -14,6 +14,7 @@
 [![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-1.3M+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
 [![Biggest Merge](https://img.shields.io/badge/Biggest%20Merge-n8n%20194K%20stars-f59e0b?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/n8n-io/n8n/pull/32801)
 [![Release Notes](https://img.shields.io/badge/Named%20In%20Release%20Notes-CodeceptJS%20v4.0.8-7c3aed?style=for-the-badge&logo=trophy&logoColor=white)](https://github.com/codeceptjs/CodeceptJS/releases/tag/4.0.8)
+[![Release Notes](https://img.shields.io/badge/Named%20In%20Release%20Notes-n8n%20v2.29.0-7c3aed?style=for-the-badge&logo=trophy&logoColor=white)](https://docs.n8n.io/changelog/release-notes-2.x)
 
 </div>
 
@@ -37,7 +38,7 @@ When I find something real, I report it with a reproducible description and a su
 |:-----|:-----|:-----|:--------:|:------:|
 | Jul 1 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | [PR #925](https://github.com/NanmiCoder/MediaCrawler/pull/925) — `IpProxyProvider.get()` returns `None` for unknown provider names — silently stored, crashes later with `AttributeError: 'NoneType' object has no attribute 'get_proxy'` — labeled `bug` + `lgtm` by NanmiCoder | 🟡 Medium | ✅ [Merged](https://github.com/NanmiCoder/MediaCrawler/pull/925) |
 | Jul 1 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | [PR #227](https://github.com/calesthio/OpenMontage/pull/227) — `success` contract mismatch in `CharacterAnimationReviewer` — diverged from `visual_qa.py` sibling pattern — merged by calesthio | 🟡 Medium | ✅ [Merged](https://github.com/calesthio/OpenMontage/pull/227) |
-| Jun 29 | [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ **194K** | [PR #32801](https://github.com/n8n-io/n8n/pull/32801) — IPv6 `[::1]` missing from MCP redirect URI DTO — admin gets HTTPS-required error even though runtime accepts it — merged by nikhilkuria — **BIGGEST REPO YET** | 🟡 Medium | ✅ [Merged](https://github.com/n8n-io/n8n/pull/32801) |
+| Jun 29 | [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ **194K** | [PR #32801](https://github.com/n8n-io/n8n/pull/32801) — IPv6 `[::1]` missing from MCP redirect URI DTO — admin gets HTTPS-required error even though runtime accepts it — merged by nikhilkuria — **BIGGEST REPO YET** — **named in [v2.29.0 release notes](https://docs.n8n.io/changelog/release-notes-2.x)** | 🟡 Medium | ✅ [Merged + Release Note](https://github.com/n8n-io/n8n/pull/32801) |
 | Jun 29 | [denoland/deno](https://github.com/denoland/deno) ⭐ 100K+ | [PR #35520](https://github.com/denoland/deno/pull/35520) — `BTreeSet::contains` byte-exact match misses case-insensitive npm names in trust-policy — *"bug is real and your analysis is spot on"* — bartlomieju | 🔴 High | ✅ [Merged](https://github.com/denoland/deno/pull/35520) |
 | Jun 26 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 89K+ | [PR #1078](https://github.com/harry0703/MoneyPrinterTurbo/pull/1078) — `youtube_shorts` platform name mismatch — metadata silently dropped on upload | 🟡 Medium | ✅ [Merged](https://github.com/harry0703/MoneyPrinterTurbo/pull/1078) |
 | Jun 25 | [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) | [PR #150](https://github.com/palmier-io/palmier-pro/pull/150) — `CFTypeID` guard missing before force cast — fatal crash on XMEML export | 🔴 High | ✅ [Merged](https://github.com/palmier-io/palmier-pro/pull/150) |
@@ -96,7 +97,7 @@ Discussions       ██░░░░░░░░  2
 Repos Analyzed    ██████████  29+
 Confirmed Bugs    ██████████  15+
 Biggest Merge     ██████████  n8n — 194K stars 🏆
-Named in Release  █░░░░░░░░░  1   ← CodeceptJS v4.0.8
+Named in Release  ██░░░░░░░░  2   ← CodeceptJS v4.0.8 + n8n v2.29.0 🏆
 ```
 
 ---
