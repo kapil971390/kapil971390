@@ -8,15 +8,35 @@
 
 <div align="center">
 
-[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-29+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-35+-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-15-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
-[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-1.3M+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Repos Analyzed](https://img.shields.io/badge/Repos%20Analyzed-30+-0f0c29?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Issues & PRs Opened](https://img.shields.io/badge/Issues%20%26%20PRs%20Opened-36+-302b63?style=for-the-badge&logo=git-pull-request&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![PRs Merged by Maintainers](https://img.shields.io/badge/PRs%20Merged-16-2ea44f?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/kapil971390/oss-findings)
+[![Stars Impacted](https://img.shields.io/badge/Stars%20Impacted-1.4M+-f0a500?style=for-the-badge&logo=star&logoColor=white)](https://github.com/kapil971390/oss-findings)
 [![Biggest Merge](https://img.shields.io/badge/Biggest%20Merge-n8n%20194K%20stars-f59e0b?style=for-the-badge&logo=git-merge&logoColor=white)](https://github.com/n8n-io/n8n/pull/32801)
 [![Release Notes](https://img.shields.io/badge/Named%20In%20Release%20Notes-CodeceptJS%20v4.0.8-7c3aed?style=for-the-badge&logo=trophy&logoColor=white)](https://github.com/codeceptjs/CodeceptJS/releases/tag/4.0.8)
 [![Release Notes](https://img.shields.io/badge/Named%20In%20Release%20Notes-n8n%20v2.29.0-7c3aed?style=for-the-badge&logo=trophy&logoColor=white)](https://docs.n8n.io/changelog/release-notes-2.x)
 
 </div>
+
+---
+
+## 🏆 Latest Win — oh-my-zsh merged!
+
+<div align="center">
+
+> **[PR #13835](https://github.com/ohmyzsh/ohmyzsh/pull/13835) merged into [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) — 175K+ stars**
+
+</div>
+
+**Bug:** `c90141e` introduced `%`-escaping in the `josh` theme — but `branch_size` was still computed from the raw (unescaped) branch name. For a branch like `feat/100%done` (13 chars raw), the displayed string `feat/100%%done` is 14 chars — causing the prompt padding to be off by one space per `%` in the branch name.
+
+**Maintainer feedback:**
+
+> *"Clean fix. The root cause is clear: branch_size was computed before the %-escaping, so the prompt padding was off by one per % in the branch name. Moving the escape to right after git_current_branch so both branch_size and the prompt string use the same escaped value is the correct approach. Minimal change, well explained. LGTM."*
+> — **its-Sohan** (reviewer)
+
+> *"LGTM! Thanks!"*
+> — **carlosala** (maintainer, merged)
 
 ---
 
@@ -36,9 +56,10 @@ When I find something real, I report it with a reproducible description and a su
 
 | Date | Repo | What | Severity | Status |
 |:-----|:-----|:-----|:--------:|:------:|
+| Jul 7 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐ **175K** | [PR #13835](https://github.com/ohmyzsh/ohmyzsh/pull/13835) — `branch_size` computed before `%→%%` escaping — prompt padding off by N spaces per `%` in branch name — *"Minimal change, well explained. LGTM"* — carlosala | 🟡 Medium | ✅ [Merged](https://github.com/ohmyzsh/ohmyzsh/pull/13835) |
 | Jul 1 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | [PR #925](https://github.com/NanmiCoder/MediaCrawler/pull/925) — `IpProxyProvider.get()` returns `None` for unknown provider names — silently stored, crashes later with `AttributeError: 'NoneType' object has no attribute 'get_proxy'` — labeled `bug` + `lgtm` by NanmiCoder | 🟡 Medium | ✅ [Merged](https://github.com/NanmiCoder/MediaCrawler/pull/925) |
 | Jul 1 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | [PR #227](https://github.com/calesthio/OpenMontage/pull/227) — `success` contract mismatch in `CharacterAnimationReviewer` — diverged from `visual_qa.py` sibling pattern — merged by calesthio | 🟡 Medium | ✅ [Merged](https://github.com/calesthio/OpenMontage/pull/227) |
-| Jun 29 | [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ **194K** | [PR #32801](https://github.com/n8n-io/n8n/pull/32801) — IPv6 `[::1]` missing from MCP redirect URI DTO — admin gets HTTPS-required error even though runtime accepts it — merged by nikhilkuria — **BIGGEST REPO YET** — **named in [v2.29.0 release notes](https://docs.n8n.io/changelog/release-notes-2.x)** | 🟡 Medium | ✅ [Merged + Release Note](https://github.com/n8n-io/n8n/pull/32801) |
+| Jun 29 | [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ **194K** | [PR #32801](https://github.com/n8n-io/n8n/pull/32801) — IPv6 `[::1]` missing from MCP redirect URI DTO — admin gets HTTPS-required error even though runtime accepts it — merged by nikhilkuria — **BIGGEST REPO** — **named in [v2.29.0 release notes](https://docs.n8n.io/changelog/release-notes-2.x)** | 🟡 Medium | ✅ [Merged + Release Note](https://github.com/n8n-io/n8n/pull/32801) |
 | Jun 29 | [denoland/deno](https://github.com/denoland/deno) ⭐ 100K+ | [PR #35520](https://github.com/denoland/deno/pull/35520) — `BTreeSet::contains` byte-exact match misses case-insensitive npm names in trust-policy — *"bug is real and your analysis is spot on"* — bartlomieju | 🔴 High | ✅ [Merged](https://github.com/denoland/deno/pull/35520) |
 | Jun 26 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ⭐ 89K+ | [PR #1078](https://github.com/harry0703/MoneyPrinterTurbo/pull/1078) — `youtube_shorts` platform name mismatch — metadata silently dropped on upload | 🟡 Medium | ✅ [Merged](https://github.com/harry0703/MoneyPrinterTurbo/pull/1078) |
 | Jun 25 | [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) | [PR #150](https://github.com/palmier-io/palmier-pro/pull/150) — `CFTypeID` guard missing before force cast — fatal crash on XMEML export | 🔴 High | ✅ [Merged](https://github.com/palmier-io/palmier-pro/pull/150) |
@@ -67,9 +88,10 @@ When I find something real, I report it with a reproducible description and a su
 
 | Repository | Language | Stars | Finding |
 |:-----------|:---------|------:|:--------|
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | JavaScript | 217K+ | Security bypass in gateguard hook — `find -exec rm` via `&&`/`;`/`\|`/`\|\|` — merged ✅ |
+| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | Shell | 175K+ | Prompt padding off-by-one from unescaped branch size — merged ✅ |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | JavaScript | 217K+ | Security bypass in gateguard hook — merged ✅ |
 | [penpot/penpot](https://github.com/penpot/penpot) | ClojureScript | 50K+ | Stale MCP token state — merged in v2.17.0 ✅ |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Python | 89K+ | 3 bugs found, 3 fixed |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Python | 89K+ | 4 bugs found, 4 fixed |
 | [medusajs/medusa](https://github.com/medusajs/medusa) | TypeScript | 28K+ | Race condition in async workflow step |
 | [erictik/midjourney-api](https://github.com/erictik/midjourney-api) | TypeScript | 1.8K | 2 bugs found |
 | [apify/crawlee-python](https://github.com/apify/crawlee-python) | Python | 9K+ | Silent URL filtering behavior change |
@@ -81,7 +103,7 @@ When I find something real, I report it with a reproducible description and a su
 | [aws/aws-sam-cli](https://github.com/aws/aws-sam-cli) | Python | 6.7K | Analyzed — no actionable findings |
 | [codeceptjs/CodeceptJS](https://github.com/codeceptjs/CodeceptJS) | JavaScript | 10K+ | shuffle regression — PR #5639 merged ✅ |
 | [magento/magento2](https://github.com/magento/magento2) | PHP | 14K+ | `NoSuchEntityException` race condition in bulk price API |
-| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | Python | 6K+ | `None` proxy provider crash — labeled lgtm, merged ✅ |
+| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | Python | 6K+ | `None` proxy provider crash — merged ✅ |
 
 </div>
 
@@ -91,11 +113,11 @@ When I find something real, I report it with a reproducible description and a su
 
 ```
 Issues Opened     ██████████  20+
-PRs Submitted     ████████░░  18+
-PRs Merged        ████████░░  15  ← accepted by maintainers
+PRs Submitted     ████████░░  19+
+PRs Merged        ████████░░  16  ← accepted by maintainers
 Discussions       ██░░░░░░░░  2
-Repos Analyzed    ██████████  29+
-Confirmed Bugs    ██████████  15+
+Repos Analyzed    ██████████  30+
+Confirmed Bugs    ██████████  16+
 Biggest Merge     ██████████  n8n — 194K stars 🏆
 Named in Release  ██░░░░░░░░  2   ← CodeceptJS v4.0.8 + n8n v2.29.0 🏆
 ```
